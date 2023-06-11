@@ -1,0 +1,33 @@
+/* @import url('css/grid.min.css'); */
+@import url('css/nav-bar.css');
+/* Reset CSS  */
+@import url('css/reset.css');
+
+@import url('css/itsme.css');
+@import url('css/about.css');
+@import url('css/footer.css');
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+
+body{
+    font-family: "DM Sans", sans-serif;
+
+}
+
+
+
+
+.hidden{
+    display: none;
+}
+
+
+.inverted{
+    background-color: white !important;
+    color: #cfcfcf;
+}
+
+/* ??? */
