@@ -6,10 +6,10 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-    position: fixed;
+    
     z-index: 9999;
     width: 100%;
-    
+    position: fixed;
 }
 
 .nav-bar-title{
@@ -35,7 +35,7 @@ display: inline;
 
 .hello-sky{
     width:100%;
-    height: 500;
+    height: 800px;
     position: relative;
     display: flex;
     align-items: center;
