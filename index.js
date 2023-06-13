@@ -41,22 +41,31 @@ document.querySelector('.dream-btn').addEventListener('click', ()=>{
 
 let darkmode = document.querySelector('.dark-mode')
 let count = 0;
-let helloSkyImg = document.querySelector('.hello-sky');
+let helloSkyImg = document.querySelector('.hello-sky-img');
 
-
+const images = ["night.jpeg", "sky.jpeg"];
 darkmode.addEventListener('click', () => {
     count++;
     if (count % 2 == 0) {
+        
         darkmode.innerHTML = `<i class="fa-solid fa-sun"></i>`;
         document.body.style.backgroundColor = "white";
         document.body.style.color = "black";
-        helloSkyImg.src = "asset/sky.jpeg" + Date.now();
+        helloSkyImg.src = "asset/sky.jpeg";
         document.querySelector('.nav-bar').style.backgroundColor = "white";
     } else {
         darkmode.innerHTML = `<i class="fa-solid fa-moon"></i>`;
         document.body.style.backgroundColor = "black";
         document.body.style.color = "white";
-        helloSkyImg.src = "asset/sky.jpeg" + Date.now();
+        helloSkyImg.src = "asset/night.jpeg";
         document.querySelector('.nav-bar').style.backgroundColor = "black";
     }
 });
+
+
+
+let japanimg = document.querySelector('#japan img')
+
+japanimg.addEventListener('click', () => {
+    document.querySelector('.black-bg').classList.add('show-modal')
+})
