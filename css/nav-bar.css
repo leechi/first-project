@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-    
+   
     z-index: 9999;
     width: 100%;
     position: fixed;
@@ -47,4 +47,17 @@ display: inline;
     position: absolute;
     font-size: 40px;
     font-weight: 900;
+}
+
+
+.fixed-out{
+    height: 100px;
+}
+
+.dark-mode{
+    background-color: inherit;
+    border: none;
+    margin-left: 20px;
+    font-size: 30px;
+    color: gold;
 }

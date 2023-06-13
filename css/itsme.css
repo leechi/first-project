@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 65px;
+  
 }
 .tab-btn{
     width: 230px;
@@ -150,6 +151,8 @@
 
 .travle {
     display: flex;
+    align-items: center;
+    height: 500px;
 }
 
 .travle img{
