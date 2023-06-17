@@ -62,10 +62,20 @@ darkmode.addEventListener('click', () => {
     }
 });
 
-
+let blackbg = document.querySelector('.black-bg');
 
 let japanimg = document.querySelector('#japan img')
 
 japanimg.addEventListener('click', () => {
-    document.querySelector('.black-bg').classList.add('show-modal')
+    blackbg.classList.add('show-modal')
 })
+
+blackbg.addEventListener('click', (e) => {
+    if (e.target === blackbg) {
+        
+        blackbg.classList.remove('show-modal')
+    }
+    
+})
+
+
