@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <body>
+
+   <div class="black-bg">
+                         <div class="white-bg">
+                            <img src="asset/japen.jpeg" alt="">
+                        </div>
+                    </div>
+
     <nav class="nav-bar">
         <div class="container">
             <div class="row">
@@ -14,24 +21,25 @@
                     
                         <h1 class="nav-bar-title">LEECHI</h1>
 
-                            <li class="nav-bar-li one"><a href="#itsme">It's me</a></li>
-                            <li class="nav-bar-li"><a href="#about">About</a></li> 
+                            <li class="nav-bar-li one" id="itsme-t">It's me</li>
+                            <li class="nav-bar-li" id="about-scroll">About</li> 
+
+                            
+                                <button class="dark-mode">
+                                    <i class="fa-solid fa-sun"></i>
+                                </button>
+                            
                  
                 </div>
             </div>
         </div>
     </nav>
-    <header class="hello">
-        <div class="container">
-            <div class="row">
-                <div class="column">
+    <header class="hello" id="hi">
+       <div class="fixed-out"></div>
                     <div class="hello-sky">
-                        <img class="hello-sky" src="asset/sky.jpeg" alt="">
+                        <img class="hello-sky-img" src="asset/sky.jpeg" alt="">
                     <h1 class="hello-title">HI :) I'M LEE CHI YEON</h1>
-                    </div>
                     
-                </div>
-            </div>
         </div>
     </header>
 
@@ -39,8 +47,8 @@
         
                     <h1 class="itsme-title">It's me</h1>
                     <div class="tab-btn">
-                        <button>Dream</button>
-                        <button class="inverted">Travle</button>
+                        <button class="dream-btn">Dream</button>
+                        <button class="travle-btn inverted">Travle</button>
                     </div>
                     
                     <div class="dream">
@@ -66,12 +74,27 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 트레블 모달창 -->
+                     
                     <div class="travle hidden">
-                        <h3>Travle</h3>
-                        <img src="asset/sebu.jpeg" alt="">
-                        <img src="asset/japen.jpeg" alt="">
-                        <img src="asset/호주.jpeg" alt="">
-                        <img src="asset/뉴질랜드.jpeg" alt="">
+                        <div>
+                        <div id="sebu">
+                        <img  src="asset/sebu.jpeg" alt="">
+                        </div>
+                        <div id="japan">
+                        <img  src="asset/japen.jpeg" alt="">
+                        </div>
+                        </div>
+                        <div>
+                        <div id="os">                       
+                            <img  src="asset/os.jpeg" alt="">
+                
+
+                            </div>
+                             <div id="new" >
+                        <img src="asset/new.jpeg" alt="">
+                        </div>
+                        </div>
                     </div>
                 
                         
@@ -86,8 +109,8 @@
                     <div class="about-box">
                     <p>
                         I love traveling around 
-                        <br> the world and reading
-                        <br> books and comic books,
+                        <br> the world, reading,
+                        <br>smiling and
                          <br>listening music!
                          <br>
                         <br>
@@ -128,5 +151,8 @@
                     </dl>
            
     </footer>
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/15235ae2d2.js" crossorigin="anonymous"></script>
 </body>
 </html>
